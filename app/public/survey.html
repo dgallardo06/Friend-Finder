@@ -126,6 +126,34 @@
 			<a href="https://github.com/dgallardo06/Friend-Finder" target="_blank"> GitHub Repo</a>
 		</footer>
 	</body>
+
+	<div id="resultsModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal Content-->
+          <div class="modal-content">
+
+            <!-- "X" Button to close the modal -->
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 class="modal-title"><strong>It's a match!</strong></h2>
+            </div>
+
+            <!-- Modal Body (For Match Info) -->
+            <div class="modal-body">
+              <h2 id="matchName"></h2>
+              <img id="matchImg" src="" alt="Image Not Found" style="max-width: 350px;">
+            </div>
+
+            <!-- Modal Footer (Close Button) -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+
+          </div>
+
+        </div>
+      </div
 </html>
 
 <script type="text/javascript">
